@@ -11,7 +11,7 @@ print(a3)
 a4={i:"odd" if i%2==0 else "even"for i in [j for j in range(0,n)]}
 print(a4)
 
-a5=[len(i) if len(i)<=5 else 5 for i in ["car","cat","banana","BIGGEST IPHONE EVER!!!"]]
+a5=[len(i) if len(i)<=5 else 5 for i in ["car","cat","banana","pizza is best!"]]
 print(a5)
 
 a6=[i if i>0 else 0 for i in [-1,5,9,99,-152]]
